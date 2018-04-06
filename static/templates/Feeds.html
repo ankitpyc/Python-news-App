@@ -1,0 +1,320 @@
+<html><head>
+  <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/js/bootstrap.min.js">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800">
+<link rel="stylesheet" type="text/css" href="https://decorator.io/tools/modulr.mind.css">
+<link rel="stylesheet" type="text/css" href="https://decorator.io/tools/tooltip.min.css">
+<style type="text/css">
+body{
+width: 100%;
+height: 100%;
+background: #eee;
+font-family: ubuntu;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+	height: inherit;
+	width: 90%;
+}
+.timeline-item {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    padding: 12px;
+    max-width: 472px;
+    min-height: 200px;
+}
+@-webkit-keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.animated-background {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+            animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    background: #f6f7f8;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+    background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background: -o-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 96px;
+    position: relative;
+}
+.background-masker {
+    background: #fff;
+    position: absolute;
+}
+
+/* Every thing below this is just positioning */
+
+.background-masker.header-top,
+.background-masker.header-bottom,
+.background-masker.subheader-bottom {
+    top: 0;
+    left: 40px;
+    right: 0;
+    height: 10px;
+}
+
+.shadow{
+}
+.form textarea {
+  border: none;
+  height: 40px;
+  min-height: 40px;
+  resize: none;
+  line-height: 28px;
+  transition: height 0.3s ease-in-out;
+}
+.form textarea:hover{
+  box-shadow: none;
+}
+.form textarea:focus{
+  border: 1px solid #ddd;
+  height: 150px;
+  line-height: 21px;
+}
+.background-masker.header-top,
+.background-masker.header-bottom,
+.background-masker.subheader-bottom {
+    top: 0;
+    left: 40px;
+    right: 0;
+    height: 10px;
+}
+.form .btn{
+  margin-top: 2px;
+}
+.item{
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.item .label{
+  margin-top: -1px;
+}
+</style>	
+</head>
+<body>
+	<div class="row">
+  <div class="column" style="
+    background: #ececec;
+    width: 40%;
+    border-right: 1px solid #ffffff;
+                           ">
+    <div style="
+    background: #4a4a4a;
+    padding: 20px;
+    color: #ffffff;
+">Welcome Ankit</div>
+  	<ul style="
+    height: 100%;
+">
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dcdcdc;
+    color: #969595;
+    font-weight: 500;
+    margin: auto;
+    line-height: 1.9em;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+		<li style="
+    padding: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #969595;
+    font-weight: 500;
+">Settings</li>
+	
+	</ul>		
+  </div>
+  <div class="column" style="background: white;width: 60%;">
+  		
+
+  		<div style="
+    padding: 0px;
+    margin: 2% 3%;
+    padding: 4px;
+" class="wrapper center padding-40">
+  <!-- Social Form Start -->
+  <div class="white shadow padding-10 margin-bottom">
+    <form class="form xl relative">
+      <div class="col-1 col-persist -margin">
+        <img class="pull-left width-100 round" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245018/profile/profile-80_3.jpg">
+      </div>
+      <div class="col-9 col-persist gutter-h-10 padding-top-5 -margin">
+        <textarea placeholder="What's new?"></textarea>
+      </div>
+      <div class="col-2 col-persist -margin">
+        <a class="btn l icon round text-gray hover-text-red">
+          <i class="fa fa-camera"></i>
+        </a>
+        <a class="btn l icon round text-gray hover-text-red">
+          <i class="fa fa-video-camera"></i>
+        </a>
+      </div>
+    </form>
+  </div>
+  <!-- Social Form End -->
+
+  <!-- Feed Item Start -->
+  {% for article in articles.articles %}
+  <div class="item white shadow cf">
+
+      <!-- Item Header Start -->
+      <div class="row padding">
+        <div class="col-1 col-persist -margin">
+          <img class="pull-left width-100 round" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245018/profile/profile-80_3.jpg">
+        </div>
+
+        <div class="col-11 col-persist gutter-h-10 padding-top-15">
+          <h5 class="text-15 text700 pull-left">{{article.title}}</h5>
+          <a href="#" class="label red pull-left margin-left hover-tooltip">
+            <span class="tooltip top text-capitalize">{{article.description}}</span>
+            public
+          </a>
+          <a href="#" class="pull-right label fill-white text-gray">12h ago</a>
+        </div>
+      </div>
+      <!-- Item Header End -->
+
+      <!-- Item Content Start -->
+      <div class="row">
+        <p class="padding -padding-top">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          Lorem Ipsum is simply dummy text Lorem Ipsum
+        </p>
+       <img class="pull-left width-100" src="{{article.urlToImage}}">
+      </div>
+      <!-- Item Content End -->
+
+      <!-- Item Meta Start -->
+      <div class="row padding">
+        <div class="pull-left">
+          <a class="btn icon round text-red fill-silver">
+            <i class="fa fa-thumbs-up"></i>
+          </a>
+          <a class="btn white hover-disable text-red text600">256</a>
+        </div>
+        <div class="pull-right">
+          <a class="btn icon round text-gray hover-text-red">
+            <i class="fa fa-comment"></i>
+          </a>
+          <a class="btn white hover-disable text-red text600">80</a>
+        </div>
+      </div>
+      <!-- Item Meta End -->
+  </div>
+   {% endfor %}
+
+
+
+
+
+
+
+  <!-- Footer Start -->
+  <div class="item padding-10 white shadow">
+    <a class="btn blue" href="https://github.com/uloga/modulr.css" target="_blank"><i class="fa fa-download"></i> Download</a>
+    <a class="btn blue" href="https://github.com/uloga/modulr.css" target="_blank"><i class="fa fa-github"></i> Github</a>
+    <a href="#" class="btn fill-transparent hover-disable text-black pull-right">Made With: Modulr.css</a>
+  </div>
+  <!-- Footer End -->
+</div>
+
+      </div>
+      <!-- Item Content End -->
+
+      <!-- Item Meta Start -->
+   
+       
+      <!-- Item Meta End -->
+  </div>
+  
+
+  <!-- Footer End -->
+
+  
+
+
+<!-- Social Wrapper Start -->
+
+
+  </body></html>

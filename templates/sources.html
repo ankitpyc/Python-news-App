@@ -1,0 +1,23 @@
+<style type="text/css">
+	body{
+		background: rgb(238, 238, 238);
+	}
+</style>
+
+{% for source in sources.sources %}
+<div style="margin: 2% 1%;
+display: inline-block;
+height: 128px;
+text-align: center;
+width: 265px;
+border-radius: 34px;
+background: rgb(255, 253, 253);
+padding: 30px;
+border-radius: 5px;
+border: 1px solid #dfdfdf;">
+<span style="font-size: large;">{{source.name}}</span>
+<br>
+<br>
+<small>{{source.description}}</small>
+</div>
+{% endfor %};

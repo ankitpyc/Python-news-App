@@ -1,0 +1,17 @@
+{
+  "name": "Python_news",
+  "authors": [
+    "ankitpyc <ankitmishra471@gmail.com>"
+  ],
+  "description": "Desktop APP for News from news.api",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
